@@ -1,4 +1,4 @@
-package com.bchengchat.rss.controller;
+package com.bchengchat.rss;
 
 
 import com.bchengchat.rss.service.RSSService;

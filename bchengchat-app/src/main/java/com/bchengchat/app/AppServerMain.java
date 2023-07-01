@@ -22,10 +22,10 @@ import java.net.UnknownHostException;
 @MapperScan("com.bchengchat.app.mapper")
 @SpringBootApplication
 @EnableAsync
-public class MainApplication implements ApplicationListener<WebServerInitializedEvent> {
+public class AppServerMain implements ApplicationListener<WebServerInitializedEvent> {
 
     public static void main(String[] args) {
-        SpringApplication.run(MainApplication.class, args);
+        SpringApplication.run(AppServerMain.class, args);
     }
 
     @Override

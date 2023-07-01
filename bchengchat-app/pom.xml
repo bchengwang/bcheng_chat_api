@@ -76,6 +76,12 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-autoconfigure</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.bcheng.chat</groupId>
+            <artifactId>bchengchat-common</artifactId>
+            <version>1.0</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
 
     <build>
@@ -96,7 +102,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
                     <!-- 指定该Main Class为全局的唯一入口 -->
-                    <mainClass>com.bchengchat.app.MainApplication</mainClass>
+                    <mainClass>com.bchengchat.app.AppServerMain</mainClass>
                     <layout>ZIP</layout>
                 </configuration>
                 <executions>
